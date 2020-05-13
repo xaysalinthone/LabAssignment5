@@ -1,7 +1,7 @@
 <mat-toolbar color="accent" class="toolbar">
   <div class="row-one">
     <div class="container-padding">
-      <span>r1c1</span>
+      <button mat-button class="menu">Menu</button>
     </div>
     <div id="r1c2" class="container-padding">
       <button (click)="navigateTo('')" class="nav-buttons" type="button" mat-raised-button color="warn">
@@ -12,7 +12,9 @@
       </button>
     </div>
     <div class="container-padding">
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example home icon">favorite</mat-icon>
+      <!-- <mat-icon svgIcon="thumbs-up" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon> -->
+
     </div>
   </div>
 </mat-toolbar>
@@ -22,18 +24,3 @@
   <div id="banner" class="align-center" (mouseenter)="showGreeting()" (mouseleave)="hideGreeting()">r1c2</div>
   <div class="align-center">r1c3</div>
 </header> -->
-
-<mat-toolbar color="accent" class="row-one">
-  <mat-toolbar-row>
-    <div class="container-padding">
-      <span>r1c1</span>
-    </div>
-    <div (mouseleave)="resetGreeting()" (mouseenter)="showGreeting()" id="r1c2" class="container-padding">
-    </div>
-    <div class="container-padding">
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-      <!-- <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon> -->
-
-    </div>
-  </mat-toolbar-row>
-</mat-toolbar>
