@@ -11,7 +11,7 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #CCC;
+  background-color: rgba(189, 188, 188, 0.76);
 }
 
 .main-container {
@@ -30,12 +30,12 @@ body {
 }
 
 .row-two {
-  background-color: #f1f1f1;
+  background-color: #76b3d6bd;
 }
 
 .row-three {}
 
 .container-padding {
   margin: 12px;
-  border: 1px dashed #a69f9f;
+  border: 1px dashed #89afda;
 }

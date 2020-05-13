@@ -22,23 +22,23 @@ export class CoursesComponent implements OnInit {
     this.studentArray = [
       {
         id: 1,
-        firstName: 'Lucas',
-        lastName: 'Phan',
-        course: 'Programming',
+        firstName: 'Phil',
+        lastName: 'Dunphy',
+        course: 'Business',
         editMode: false
       },
       {
         id: 2,
-        firstName: 'Mike',
-        lastName: 'Tyson',
-        course: 'Boxing',
+        firstName: 'Luke',
+        lastName: 'Gram',
+        course: 'Physcial Education',
         editMode: false
       },
       {
         id: 3,
-        firstName: 'Mohammid',
-        lastName: 'Ali',
-        course: 'Super Boxing',
+        firstName: 'Jay',
+        lastName: 'Prichet',
+        course: 'Marketing',
         editMode: false
       }
     ];
